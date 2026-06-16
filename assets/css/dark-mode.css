@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Dark Mode Styles
+   ========================================================================== */
+body.dark-mode {
+    --bg-primary: #171A1C;
+    --bg-secondary: #202528;
+    --bg-card: #202528;
+    
+    --text-primary: #F6F7F8;
+    --text-secondary: #B8C0C4;
+    
+    --border-color: rgba(255, 255, 255, 0.1);
+    --glass-bg: rgba(23, 26, 28, 0.85);
+    
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.2);
+    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .btn-primary {
+    background-color: var(--accent-premium);
+    color: #ffffff;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #4DB8CC;
+    color: #171A1C;
+    box-shadow: 0 10px 20px rgba(77, 184, 204, 0.3);
+}
+
+body.dark-mode .hero-overlay {
+    background: linear-gradient(to right, rgba(23, 26, 28, 0.95) 0%, rgba(23, 26, 28, 0.6) 100%);
+}
+
+body.dark-mode .icon-btn {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .icon-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #4DB8CC;
+}
+
+body.dark-mode .footer {
+    background-color: #101214;
+}
+
+body.dark-mode .back-to-top {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .back-to-top:hover {
+    background-color: var(--accent-premium);
+    color: #ffffff;
+}

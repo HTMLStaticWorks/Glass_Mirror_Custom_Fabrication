@@ -1,0 +1,22 @@
+/* ==========================================================================
+   RTL Styles
+   ========================================================================== */
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+html[dir="rtl"] .hero-overlay {
+    background: linear-gradient(to left, rgba(10, 14, 18, 0.95) 0%, rgba(10, 14, 18, 0.4) 100%);
+}
+
+html[dir="rtl"] .ultra-premium-hero .hero-overlay {
+    background: linear-gradient(-135deg, rgba(10,14,18,0.98) 0%, rgba(10,14,18,0.85) 40%, rgba(0,180,216,0.1) 100%);
+}
+
+html[dir="rtl"] .footer-grid {
+    direction: rtl;
+}
+
+html[dir="rtl"] .card-body {
+    text-align: right;
+}
