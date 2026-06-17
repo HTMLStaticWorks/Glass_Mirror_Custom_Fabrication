@@ -20,3 +20,18 @@ html[dir="rtl"] .footer-grid {
 html[dir="rtl"] .card-body {
     text-align: right;
 }
+
+html[dir="rtl"] .brand svg,
+html[dir="rtl"] .auth-logo svg {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+
+html[dir="rtl"] .footer-brand svg {
+    margin-right: 0 !important;
+    margin-left: 12px !important;
+}
+
+html[dir="rtl"] .fixed-toggles {
+    justify-content: flex-start;
+}

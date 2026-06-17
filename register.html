@@ -38,6 +38,8 @@
             font-weight: 600;
             color: var(--accent-premium);
             text-decoration: none;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
         }
         .auth-card h2 { margin-bottom: 0.5rem; font-size: 1.75rem; }
         .auth-card p.subtitle { color: var(--text-secondary); margin-bottom: 2rem; }
@@ -67,17 +69,22 @@
         .divider::after { margin-left: 1rem; }
         
         .fixed-toggles { 
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
             display: flex; 
             gap: 0.5rem; 
-            width: 100%; 
-            max-width: 450px; 
-            justify-content: flex-end; 
-            margin-bottom: 1rem; 
         }
         
         @media (max-width: 480px) {
             body { padding: 1rem; }
             .auth-card { padding: 2rem 1.5rem; }
+            .fixed-toggles {
+                position: static;
+                justify-content: flex-end;
+                width: 100%;
+                margin-bottom: 1rem;
+            }
         }
     </style>
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
